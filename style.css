@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.container {
+    margin: 15px;
+}
+
+.section-one {
+    background-color: black;
+    color: white;
+    padding: 14px;
+}
+
+.section-one__heading {
+    padding-bottom: 15px;
+    font-size: 40px;
+}
+
+.section-one__desc {
+    padding-bottom: 10px;
+}
+
+.section-one__contact {
+    background-color: orangered;
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+}
+
+.section-two {
+    margin-top: 10px;
+}
+
+.section-two__heading, .section-three__heading, .section-four__heading {
+    padding-bottom: 12px;
+}
+
+.section-two__desc, .section-three__desc, .section-four__desc {
+    padding-bottom: 12px;
+}
+
+.section-three li, .section-four li{
+    list-style-type: none;
+}
+
+.section-three {
+    background-color: purple;
+    display: inline-block;
+    vertical-align: top;
+    height: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.section-four {
+    background-color: orangered;
+    display: inline-block;
+    vertical-align: top;
+    height: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.section-five {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.section-five__heading {
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.section-contact-form {
+    margin-top: 10px;
+}
+
+.section-contact-form__input, .section-contact-form__textarea, .section-contact-form__input, .section-contact-form__submit {
+    margin-top: 10px;
+} 
+
+.section-contact-form__input {
+    margin-top: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+
+.section-contact-form__textarea {
+    padding: 10px;
+    border: none;
+    border: solid black 1px;
+}
+
+.section-contact-form__submit {
+    background-color: orangered;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    margin-bottom: 10px;
+    color: white;
+}
